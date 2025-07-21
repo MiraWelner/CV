@@ -119,7 +119,7 @@
 % redefining some commands
 \titlespacing{\section}{0pt}{0pt}{0pt} % remove space around sections
 \titleformat{\section}{
-    \fontsize{14pt}{16pt}\thinheader\bfseries\uppercase
+    \fontsize{14pt}{16pt}\thinheader\bfseries
 }{}{0pt}{}
 
 
@@ -130,17 +130,24 @@
 }{}{0pt}{}
 
 % new command for writing subsection and descriptions
-\newcommand{\combosection}[4]{
-    \subsection{\textbf{#1}}
-    \ifx&#2&
-    \else
-    \Large\addfontfeatures{Color=linktext}{~|}
-    \light\large{#2}
-    \fi
-    \hfill{#3}
-    \linebreak
-    \normalsize{#4}
+\newcommand{\combosection}[4]{%
+    \subsection*{\small #1%
+        \ifx&#2&%
+        \else%
+            \ \addfontfeatures{Color=linktext}{|}\ \light\small{#2}%
+        \fi%
+        \hfill \small #3%
+    }%
+    \vspace{0.5\baselineskip}%
+    {\small
+        \setlength{\parindent}{15pt}%
+        #4%
+    }%
 }
+
+
+
+
 
 % header
 \AtBeginDocument{
@@ -221,9 +228,7 @@
     \renewcommand{\headrulewidth}{0em}
     \setlength\footskip{\baselineskip}
 }
-
 \newenvironment{tightlist}{
-    \vspace{-6mm}
     \begin{itemize}
         \itemsep1pt
         \parskip0pt
