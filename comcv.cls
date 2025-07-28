@@ -1,4 +1,3 @@
-% comcv.cls – patched
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{comcv}[2021/01/21 Compact CV]
 
@@ -9,18 +8,14 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-\RequirePackage[top=0.5cm,left=1cm,right=1cm,bottom=1.2cm]{geometry}
+\RequirePackage[top=0.5cm,left=1cm,right=1cm,bottom=0.5cm]{geometry}
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{fontspec}
-\RequirePackage{array}
-\RequirePackage{totpages}
-\RequirePackage{fancyhdr}
 \RequirePackage{titlesec}
 \RequirePackage{hyperref}
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{naturalnames}{hyperref}
 
-\definecolor{white}{HTML}{FFFFFF}
 \definecolor{gray}{HTML}{555555}
 \definecolor{lightgray}{HTML}{999999}
 \definecolor{black}{HTML}{000000}
@@ -180,7 +175,8 @@
         \setlength{\itemsep}{1pt}
         \setlength{\parskip}{0pt}
         \setlength{\parsep}{0pt}
-        \setlength{\leftmargin}{15pt} % Proper indentation
+        \setlength{\leftmargin}{15pt}
+        \setlength{\leftmargin}{15pt}
 }{
     \end{itemize}
 }

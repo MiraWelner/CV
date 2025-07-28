@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.7.20)  24 JUL 2025 12:34
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2025.7.20)  28 JUL 2025 10:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -116,52 +116,17 @@ X
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen153
-\ar@mcellbox=\box53
-\extrarowheight=\dimen154
-\NC@list=\toks19
-\extratabsurround=\skip51
-\backup@length=\skip52
-\ar@cellbox=\box54
-)
-(/usr/share/texmf-dist/tex/latex/totpages/totpages.sty
-Package: totpages 2005/09/19 v2.00 Totpages Package (muewi)
-
-(/usr/share/texmf-dist/tex/latex/everyshi/everyshi.sty
-Package: everyshi 2020/11/18 v4.00 EveryShipout Package
-))
-(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-
-\f@nch@headwidth=\skip53
-\f@nch@offset@elh=\skip54
-\f@nch@offset@erh=\skip55
-\f@nch@offset@olh=\skip56
-\f@nch@offset@orh=\skip57
-\f@nch@offset@elf=\skip58
-\f@nch@offset@erf=\skip59
-\f@nch@offset@olf=\skip60
-\f@nch@offset@orf=\skip61
-\f@nch@height=\skip62
-\f@nch@footalignment=\skip63
-\f@nch@widthL=\skip64
-\f@nch@widthC=\skip65
-\f@nch@widthR=\skip66
-\@temptokenb=\toks20
-)
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box55
-\beforetitleunit=\skip67
-\aftertitleunit=\skip68
-\ttl@plus=\dimen155
-\ttl@minus=\dimen156
-\ttl@toksa=\toks21
-\titlewidth=\dimen157
-\titlewidthlast=\dimen158
-\titlewidthfirst=\dimen159
+\ttl@box=\box53
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen153
+\ttl@minus=\dimen154
+\ttl@toksa=\toks19
+\titlewidth=\dimen155
+\titlewidthlast=\dimen156
+\titlewidthfirst=\dimen157
 )
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
@@ -214,7 +179,7 @@ Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen160
+\@linkdim=\dimen158
 \Hy@linkcounter=\count285
 \Hy@pagecounter=\count286
 
@@ -243,7 +208,7 @@ Package hyperref Info: Bookmarks ON on input line 4424.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen161
+\XeTeXLinkMargin=\dimen159
 
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -253,8 +218,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count289
-\Field@Width=\dimen162
-\Fld@charsize=\dimen163
+\Field@Width=\dimen160
+\Fld@charsize=\dimen161
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -275,7 +240,7 @@ Package hyperref Info: Driver (autodetected): hxetex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
-\pdfm@box=\box56
+\pdfm@box=\box54
 \c@Hy@AnnotLevel=\count293
 \HyField@AnnotCount=\count294
 \Fld@listcount=\count295
@@ -295,9 +260,9 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip69
+\Hy@SectionHShift=\skip53
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 41.
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
 
 Package fontspec Info: 
 (fontspec)             Font family 'Roboto(0)' created for font 'Roboto' with
@@ -402,7 +367,7 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
 eX and XeLaTeX
 \babel@savecnt=\count297
-\U@D=\dimen164
+\U@D=\dimen162
 \l@unhyphenated=\language3
 
 (/usr/share/texmf-dist/tex/generic/babel/xebabel.def)
@@ -459,11 +424,11 @@ LaTeX Font Info:    ... okay on input line 14.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(14.22636pt, 796.67726pt, 34.14322pt)
+* v-part:(T,H,B)=(14.22636pt, 816.59412pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=540.60239pt
-* \textheight=796.67726pt
+* \textheight=816.59412pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-95.04362pt
@@ -545,30 +510,24 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 14.
 Package hyperref Info: Link coloring ON on input line 14.
-(./resume.out) (./resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
-
- []
-
-
 LaTeX Font Warning: Font shape `TU/Roboto(4)/b/n' undefined
-(Font)              using `TU/Roboto(4)/m/n' instead on input line 55.
+(Font)              using `TU/Roboto(4)/m/n' instead on input line 56.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(2)/b/n' undefined
-(Font)              using `TU/Roboto(2)/m/n' instead on input line 55.
+(Font)              using `TU/Roboto(2)/m/n' instead on input line 56.
 
 
 
-[1.1
+[1
 
 ]
 
-[2.2] (./resume.aux)
+[2] (./resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -577,16 +536,22 @@ L3 programming layer <2025-01-18>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 05E91619C8F33FFF03B9B5A1E4D98B7F;524.
+
+Package rerunfilecheck Warning: File `resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  05E91619C8F33FFF03B9B5A1E4D98B7F;524.
  ) 
 Here is how much of TeX's memory you used:
- 13229 strings out of 475848
- 260011 string characters out of 5776013
- 742933 words of memory out of 5000000
- 36008 multiletter control sequences out of 15000+600000
- 559437 words of font info for 67 fonts, out of 8000000 for 9000
+ 12755 strings out of 475848
+ 251536 string characters out of 5776013
+ 730784 words of memory out of 5000000
+ 35554 multiletter control sequences out of 15000+600000
+ 559429 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 94i,5n,107p,337b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,5n,107p,337b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on resume.pdf (2 pages).
